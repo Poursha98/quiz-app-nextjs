@@ -9,25 +9,26 @@ html, body {
     background-color: #000925;
 }
 
-main  {
+main {
     padding: 1rem;
 }
+
 h1, h2 {
-    color: #eee
+    color: #eee;
 }
 
 h3 {
     padding-bottom: 2rem;
-    font-size: 1.8rem;
     color: #000105;
+    font-size: 1.8rem;
 }
 
 button {
     padding: 16px 8px;
-    margin-bottom: 12px;
+    width: 100%;
+    margin-top: 12px;
     font-size: 1rem;
     border-radius: 4px;
-    width: 100%;
     cursor: pointer;
     background-color: #808080;
     color: #f8f8f8;
@@ -40,15 +41,14 @@ button {
 li {
     list-style-type: none;
     cursor: pointer;
-    color: #000105;
-    padding: 16px 8px;
     margin: 9px 0;
+    padding: 16px 8px;
+    color: #000105;
     border: 1px solid lightgray;
 }
 
 .li-hover:hover {
     background-color: #d8d8d8;
-    /*columns: #fff;*/
 }
 
 .li-selected {
@@ -64,10 +64,10 @@ li {
 }
 
 .quiz-container {
+    background-color: #f8f8f8;
     padding: 1rem;
     margin-top: 2rem;
     border-radius: 4px;
-    background-color: #f8f8f8;
 }
 
 .container p {
